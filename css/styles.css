@@ -15,6 +15,7 @@ header nav {
   height: 100%;
   width: 100%;
   position: relative;
+  padding-right: 160px;
 }
 header h1 {
   position: absolute;
@@ -23,6 +24,7 @@ header h1 {
   margin: 0px;
   padding: 0px;
   line-height: 2.5;
+  color: #262424;
 }
 header ul {
   position: absolute;
@@ -34,6 +36,7 @@ header li {
   text-transform: uppercase;
   padding-right: 15px;
   line-height: 1.75;
+  font-weight: bolder;
 }
 header a {
   text-decoration: none;
@@ -44,10 +47,11 @@ header a {
   width: 100%;
   height: 550px;
   position: relative;
-  background-image: url("../images/plant1.jpeg");
+  background-image: url("../images/plant4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  background-position: left;
 
 }
 .content-container {
@@ -61,6 +65,7 @@ header a {
 
 #hero .content-container {
   top: 41%;
+  color: #262424;
 }
 #hero h1 {
   font-size: 56px;
@@ -68,4 +73,72 @@ header a {
 }
 #hero p {
   font-size: 21px;
+}
+
+/*about me*/
+#about {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #EBEBEB;
+}
+#about h2 {
+  color: #262424;
+}
+
+/*Skills*/
+#skills {
+  text-align: center;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  background-color: #FAFAFA;
+}
+#skills h2 {
+  color: #262424;
+}
+#skills .row {
+  position: relative;
+  width: 100%;
+}
+.skill-container {
+  display: inline-block;
+  width: 30%;
+}
+
+/*Portfolio*/
+#portfolio {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #EBEBEB;
+}
+#portfolio h2 {
+  color: #262424;
+}
+
+#portfolio span {
+  color: #3B5F41;
+  font-weight:
+}
+.portfolio-container {
+  position: relative;
+  width: 100%;
+}
+.project {
+  display: inline-block;
+  width: 35%;
+  position: relative;
+}
+.project-box {
+  height: 100px;
+  width: 100px;
+  background-image: url("../images/tresses.png");
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
