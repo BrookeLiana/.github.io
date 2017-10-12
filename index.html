@@ -2,8 +2,9 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey|Cormorant+Garamond:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+
     <meta charset="utf-8">
     <title>Brooke Liana Hargrove</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -11,7 +12,7 @@
   <body>
     <header>
       <nav>
-        <h1>Brooke Liana</h1>
+        <!-- <h1>Brooke Liana</h1> -->
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -25,7 +26,7 @@
     <div id="hero">
       <div class="content-container">
         <h1>Brooke Liana</h1>
-        <span>_____</span>
+        <span>______</span>
         <p>UX Designer, NYC</p>
       </div>
     </div>
@@ -33,7 +34,7 @@
     <div id="about">
       <div class="content-container">
         <h2>About me</h2>
-        <span>_____</span>
+        <div class="box"></div>
         <p>My name is Brooke Hargrove, a former fashion assistant and publicist turned UX designer, currently based in New York City.
           I was born in Michigan, but grew up abroad in Germany, Thailand and the UAE. I graduated with a liberal arts degree in Anthropology
            from Mount Holyoke College with an affinity for studying and conducting field research to further understand human behavior and
@@ -50,35 +51,60 @@
 
     <div id="skills">
       <div class="content-container">
-        <h2>Skills</h2>
-        <span>_____</span>
-        <p>introduction to skills</p>
+        <h2>What I do</h2>
+        <div class="box"></div>
+
 
         <div class="row">
           <div class="skill-container">
             <img src="" alt="">
-            <h3>Strategy</h3>
-            <p>Strategy paragraph</p>
+            <h3>Discovery</h3>
+            <div class="skill-box"></div>
+
+              <p>Define the project parameters and clarify goals and objectives through having a series
+                of conversations with key stakeholders and target audience. Conduct interviews to explore potential opportunities
+                for improving user interaction and optimizing user satisfaction with the product.
+              </p>
+
+            </div>
+
+            <div class="skill-container">
+              <img src="" alt="">
+              <h3>Information Architecture</h3>
+              <div class="skill-box"></div>
+              <p>Outline requirements for project and define a plan for building
+                through research analysis, a design brief and competitive analysis. Create, organize, structure and test all content for the site by developing user stories,
+                user flows, sitemaps, lo-fi wireframes, prototypes and usability tests.
+              </p>
+            </div>
           </div>
+
+          <div class="row">
           <div class="skill-container">
             <img src="" alt="">
-            <h4>Design</h4>
-            <p>Design paragraph</p>
+            <h3>Design</h3>
+            <div class="skill-box"></div>
+            <p>Determine and implement the visual direction through creating sketches, mindmaps,
+               mood boards, style guides, hi-fi mockups and preference tests.
+            </p>
           </div>
+
           <div class="skill-container">
             <img src="" alt="">
-            <h4>Code</h4>
-            <p>Code paragraph</p>
+            <h3>Code</h3>
+            <div class="skill-box"></div>
+            <p>Create a testable version of the product that is near final form by creating interactive prototypes
+               and coding the HTML & CSS needed.
+            </p>
           </div>
         </div>
-
       </div>
     </div>
 
     <div id="portfolio">
       <div class="content-container">
         <h2>Portfolio</h2>
-        <span>_____</span>
+        <div class="box"></div>
         <p>Portfolio information</p>
 
         <div class="portfolio-container">
@@ -99,6 +125,27 @@
     </div>
 
     <div id="contact">
+      <div class="content-container">
+        <h2>Contact me</h2>
+        <div class="box"></div>
+
+        <form action="mailto:b.lianahargrove@gmail.com" method="post" enctype="text/plain">
+          <div class="input-group">
+            <!-- <label for="name">Name</label> -->
+            <input type="text" placeholder="Please enter your name..." name="name"/>
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="Email" name="name"/>
+            <!-- <input type="text" name="email"/> -->
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="Message" name="name"/>
+            <!-- <input type="text" name="message"/> -->
+          </div>
+          <button type="submit" name="button">Submit</button>
+
+        </form>
+      </div>
     </div>
 
   </body>

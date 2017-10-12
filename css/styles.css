@@ -81,26 +81,38 @@ header a {
 #about {
   text-align: center;
   width: 100%;
-  height: 400px;
+  height: 450px;
   position: relative;
-  background-color: #EBEBEB;
+  background-color: rgba(235, 235, 235, 0.55);
 }
 #about h2 {
   color: #262424;
   font-family: 'Lato', sans-serif;
   text-transform:uppercase;
+  margin-bottom: 13px;
+  margin-top: 50px;
+}
+
+.box {
+  /*background:#3B5F41;*/
+  background: #c3236d;
+  height: 2px;
+  width: 26px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about .content-container {
-  width: 55%;
-  font-family: 'Open Sans Condensed', sans-serif;
+  width: 64%;
+  font-family: 'Amiri', serif;
+
 }
 
 /*Skills*/
 #skills {
   text-align: center;
   width: 100%;
-  height: 550px;
+  height: 715px;
   position: relative;
   background-color: #FAFAFA;
 }
@@ -108,14 +120,35 @@ header a {
   color: #262424;
   font-family: 'Lato', sans-serif;
   text-transform:uppercase;
+  margin-bottom: -3px;
+  margin-top: 50px;
+  margin-bottom: 13px;
 }
 #skills .row {
   position: relative;
   width: 100%;
 }
 .skill-container {
-  display: inline-block;
-  width: 30%;
+  display: inline-grid;
+  width: 34%;
+  font-family: 'Amiri', serif;
+  margin-left: 63px;
+  margin-right: 63px;
+  margin-bottom: 33px;
+}
+#skills h3 {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: -5px;
+  text-transform: uppercase;
+}
+
+.skill-box {
+  margin-top: 15px;
+  background: #c3236d;
+  height: 2px;
+  width: 21px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Portfolio*/
@@ -124,12 +157,14 @@ header a {
   width: 100%;
   height: 400px;
   position: relative;
-  background-color: #EBEBEB;
+  background-color: rgba(235, 235, 235, 0.55);
 }
 #portfolio h2 {
   color: #262424;
   font-family: 'Lato', sans-serif;
   text-transform:uppercase;
+  margin-bottom: 13px;
+  margin-top: 50px;
 }
 
 #portfolio span {
@@ -154,4 +189,41 @@ header a {
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+
+/*Contact me*/
+#contact{
+  text-align: center;
+  width: 100%;
+  height: 715px;
+  position: relative;
+  background-color: #FAFAFA;
+}
+#contact h2 {
+  color: #262424;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  margin-bottom: 13px;
+  margin-top: 50px;
+}
+
+#contact input {
+  margin-top: 47px;
+  border: none;
+  height: 40px;
+  width: 425px;
+  border-bottom: 2px solid;
+  border-bottom-color: #464343;
+  background-color: #fafafa;
+  padding: 0px;
+}
+
+button {
+  margin-top: 37px;
+  border-width: thin;
+  padding: 17px;
+  width: 430px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
 }
