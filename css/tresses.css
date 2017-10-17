@@ -1,0 +1,197 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(202, 202, 202, 0.09);
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+header nav {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-right: 160px;
+}
+header h1 {
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 2.5;
+  color: #262424;
+}
+header ul {
+  position: absolute;
+  width: 50%;
+  right: 0px;
+}
+header li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 15px;
+  line-height: 1.75;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+}
+header a {
+  text-decoration: none;
+  color: #262424;
+}
+.content-container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: 'Amiri', sans-serif;
+}
+
+/*intro*/
+.intro .content-container {
+width: 60%;
+height: 200px;
+position: relative;
+margin-top: 80px;
+text-align: center;
+}
+
+.intro p {
+  text-align: center;
+  width: 100%;
+}
+ .intro h2 {
+   margin-top: 130px;
+ }
+
+
+
+/*problem-solution*/
+.problem-solution {
+  height: 720px;
+}
+
+.problem-solution p {
+  float: left;
+  text-align: left;
+  width: 33%;
+}
+
+.problem-solution h3 {
+  clear: both;
+}
+/*user research*/
+.user-research {
+  height: 200px;
+}
+
+.user-research h3 {
+  text-align: right;
+  margin-right: 235px;
+}
+
+.user-research p {
+  float: right;
+  width: 33%;
+}
+/*competitive analysis*/
+.competitive-analysis {
+  height: 430px;
+}
+
+.competitive-analysis p {
+  width: 33%;
+}
+
+/*user personas*/
+.user-personas {
+  height: 500px;
+}
+
+.user-personas h3 {
+  text-align: center;
+}
+.user-personas p {
+text-align: center;
+margin-bottom: 60px;
+}
+
+.user-personas .row {
+    position: relative;
+    width: 100%;
+}
+
+.user-container {
+  display: inline-grid;
+  width: 33%;
+  font-family: 'Amiri', serif;
+  margin-bottom: 33px;
+}
+
+
+
+/*user flows and stories*/
+
+.user-flow {
+  height: 400px;
+}
+
+.user-flow p {
+  text-align: left;
+  float: right;
+  width: 36%;
+}
+
+.user-flow h3 {
+  text-align: right;
+  margin-right: 213px;
+}
+
+/*design*/
+.design {
+  height: 400px;
+}
+
+.design p {
+  text-align: left;
+  width: 33%;
+}
+
+/*lo fi wireframes*/
+.lo-wireframes {
+  height: 420px;
+}
+
+.lo-wireframes h3 {
+  text-align: center;
+}
+
+.lo-wireframes .content-container {
+  width: 60%;
+}
+
+/*hi fi wireframes*/
+.hi-wireframes {
+  height: 420px;
+}
+
+.hi-wireframes h3 {
+  text-align: center;
+}
+
+.hi-wireframes .content-container {
+  width: 60%;
+}
+/*conclusion*/
+.conclusion {
+  height: 200px;
+}
+
+.conclusion p {
+  width: 33%;
+}
