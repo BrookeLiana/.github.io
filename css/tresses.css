@@ -1,3 +1,16 @@
+/*hero*/
+/*.hero  {*/
+  /*width: 100%;
+  height: 200px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: initial;
+}*/
+
+/*header*/
+
 body {
   margin: 0px;
   padding: 0px;
@@ -5,7 +18,7 @@ body {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(202, 202, 202, 0.09);
+  background-color:#2e3330;
   position: fixed;
   top: 0px;
   z-index: 1;
@@ -15,6 +28,7 @@ header nav {
   width: 100%;
   position: relative;
   padding-right: 160px;
+  border-bottom: solid 1px;
 }
 header h1 {
   position: absolute;
@@ -40,7 +54,7 @@ header li {
 }
 header a {
   text-decoration: none;
-  color: #262424;
+  color: #f7eeee;
 }
 .content-container {
   position: absolute;
@@ -53,59 +67,150 @@ header a {
 }
 
 /*intro*/
+
+.intro h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 55px;
+  text-align: left;
+}
 .intro .content-container {
-width: 60%;
-height: 200px;
+width: 100%;
+height: 370px;
 position: relative;
 margin-top: 80px;
 text-align: center;
 }
 
 .intro p {
-  text-align: center;
-  width: 100%;
+  text-align: left;
+  width: 55%;
+  font-size: 17px;
 }
- .intro h2 {
-   margin-top: 130px;
- }
 
-
+.intro h3 {
+  text-align: left;
+  font-size: 21px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(204, 138, 96, 1);
+}
 
 /*problem-solution*/
 .problem-solution {
-  height: 720px;
-}
+  height: 520px;
 
-.problem-solution p {
-  float: left;
-  text-align: left;
-  width: 33%;
+}
+.problem-solution .box {
+  /*background: rgba(234, 177, 72, 0.52);*/
+  /*background-color: rgba(53, 144, 93, 0.52);*/
+  background: rgba(212, 230, 220, 0.49);
+  height: 802px;
+  width: 1190px;
+  margin-top: -450px;
 }
 
 .problem-solution h3 {
-  clear: both;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 27px;
+  text-align: center;
 }
+
+.problem-solution .row {
+    position: relative;
+    width: 100%;
+}
+
+.problem-solution-container {
+  display: inline-grid;
+  width: 37%;
+  font-family: 'Amiri', serif;
+  margin-bottom: 33px;
+  margin-left: 63px;
+  margin-right: 63px;
+}
+
 /*user research*/
 .user-research {
-  height: 200px;
+  height: 700px;
 }
 
 .user-research h3 {
-  text-align: right;
-  margin-right: 235px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.user-research h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #bf671c;
+  border-bottom: #d4b69d solid 1px;
 }
 
 .user-research p {
-  float: right;
-  width: 33%;
+  text-align: center;
+  font-size: 17px;
+}
+
+/*image*/
+
+.hair-image {
+  background-image: url("../images/bun.jpg");
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+}
+
+/*rearch quotes*/
+
+.research-quote {
+  height: 570px;
+}
+
+.research-quote h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.research-quote p {
+  text-align: center;
+  width: 44%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #be6724;
 }
 /*competitive analysis*/
 .competitive-analysis {
-  height: 430px;
+  height: 970px;
+}
+
+.competitive-analysis h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 80px;
 }
 
 .competitive-analysis p {
-  width: 33%;
+  width: 100%;
+  font-size: 17px;
+}
+
+.competitive-analysis img {
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
 /*user personas*/
@@ -115,6 +220,11 @@ text-align: center;
 
 .user-personas h3 {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+
 }
 .user-personas p {
 text-align: center;
