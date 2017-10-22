@@ -16,7 +16,7 @@ header nav {
   width: 100%;
   position: relative;
   padding-right: 160px;
-  border-bottom: #585858 solid 1px;
+  border-bottom: #8b8c87 solid 1px;
 }
 header h1 {
   position: absolute;
@@ -29,7 +29,7 @@ header h1 {
 }
 header ul {
   position: absolute;
-  width: 50%;
+  width: 44%;
   right: 0px;
 }
 header li {
@@ -54,7 +54,7 @@ header a {
   background-repeat: no-repeat;
   text-align: center;
   background-position: left;
-  background: #b6c1bb;
+  background: #bac5bf;
 }
 
 img {
