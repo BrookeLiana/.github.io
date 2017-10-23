@@ -1,8 +1,9 @@
 $(window).on("scroll", function() {
-    if($(window).scrollTop() > 500) {
+    if($(window).scrollTop() > 600) {
         $("header").addClass("active");
+        $(".logo").fadeIn();
     } else {
-        //remove the background property so it comes transparent again (defined in your css)
+      $(".logo").fadeOut();
        $("header").removeClass("active");
     }
 });
