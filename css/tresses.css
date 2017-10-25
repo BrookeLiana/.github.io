@@ -1,0 +1,478 @@
+/*hero*/
+/*.hero  {*/
+  /*width: 100%;*/
+  /*height: 400px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: initial;
+}*/
+
+/*header*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  height: 60px;
+  width: 100%;
+  background-color:#f9f9f9;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+header nav {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-right: 160px;
+  border-bottom: rgba(196, 196, 196, 0.48) solid 1px;
+}
+header h1 {
+  position: absolute;
+  width: 44%;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 2.5;
+  color: #262424;
+}
+header ul {
+  position: absolute;
+  width: 50%;
+  right: 0px;
+}
+header li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 15px;
+  line-height: 1.75;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+}
+header a {
+  text-decoration: none;
+  color: #73737a;
+}
+.content-container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.content-container h3 {
+  color: #161617;
+  letter-spacing: 3px;
+
+}
+
+.background {
+  height: 50px;
+  width: 100%;
+  background: blue;
+}
+
+.intro section {
+  margin-top: -20px;
+}
+/*intro*/
+
+.intro h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 65px;
+  text-align: left;
+  color: #161617;
+  margin-bottom: 30px;
+  letter-spacing: 4.5px;
+}
+.intro .content-container {
+width: 100%;
+height: 370px;
+position: relative;
+margin-top: 80px;
+text-align: center;
+}
+
+.intro p {
+  text-align: left;
+  width: 43%;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+}
+
+.intro h3 {
+  text-align: left;
+  font-size: 21px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(126, 159, 126);
+  text-transform: uppercase;
+  letter-spacing: 6.2px;
+}
+
+.hero-box {
+  height: 200px;
+  background: green;
+  width: 100%
+}
+
+.intro img {
+  float: right;
+  margin-top: -319px;
+  margin-right: -90px;
+  width: 230px;
+}
+
+/*problem-solution*/
+.problem-solution {
+  height: 60px;
+
+}
+.problem-solution .box {
+  /*background: rgba(234, 177, 72, 0.52);*/
+  /*background-color: rgba(53, 144, 93, 0.52);*/
+  background: rgba(212, 230, 220, 0.49);
+  height: 802px;
+  width: 1190px;
+  margin-top: -450px;
+}
+
+.problem-solution h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 27px;
+  text-align: center;
+  margin-top: -368px;
+  letter-spacing: 3px;
+  margin-left: -40px;
+}
+
+.problem-solution p {
+  margin-top: -280px;
+}
+.problem-solution .row {
+    position: relative;
+    width: 100%;
+}
+
+.problem-solution-container {
+  display: inline-grid;
+  width: 36%;
+  margin-bottom: 33px;
+  margin-left: 73px;
+  margin-right: 63px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+}
+
+/*user research*/
+.user-research {
+  height: 840px;
+}
+
+.user-research h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+
+}
+
+.user-research h4 {
+  text-align: center;
+  font-size: 40px;
+  color: #3f6a49;
+  border-bottom: rgba(196, 221, 200, 0.74) solid 1px;
+}
+
+.user-research p {
+  text-align: center;
+  font-size: 17px;
+}
+
+/*image*/
+
+.bun-image {
+  background-image: url("../images/bun.jpg");
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.curl-image {
+  background-image: url("../images/curls.jpg");
+  height: 330px;
+  background-size: cover;
+  margin-right: -150px;
+  margin-top: 100px;
+  width: 100%;
+}
+/*rearch quotes*/
+
+.research-quote {
+  height: 470px;
+}
+
+.research-quote h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+
+}
+
+.research-quote p {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 2;
+  text-align: center;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #679369;
+}
+/*competitive analysis*/
+.competitive-analysis {
+  height: 400px;
+}
+
+.competitive-analysis h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  text-align: center;
+
+}
+
+.competitive-analysis p {
+  width: 90%;
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.competitive-analysis img {
+  margin-left: 30px;
+  margin-top: 40px;
+}*/
+
+/*user personas*/
+.user-personas {
+  height: 540px;
+}
+
+.user-personas h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+
+}
+
+.user-personas h4 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 23px;
+  color: #679369;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.user-personas p {
+text-align: center;
+margin-bottom: 60px;
+font-size: 17px;
+margin-right: 20px;
+margin-left: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+line-height: 2;
+font-weight: 300;
+}
+
+.user-personas .row {
+    position: relative;
+    width: 100%;
+}
+
+.user-container {
+  display: inline-grid;
+  width: 33%;
+  font-family: 'Amiri', serif;
+  margin-bottom: 33px;
+}
+
+
+
+/*user flows and stories*/
+
+.user-flow {
+  height: 771px;
+}
+
+.user-flow p {
+  text-align: left;
+  float: right;
+  width: 36%;
+  margin-top: -590px;
+  font-size: 17px;
+}
+
+.user-flow h3 {
+  text-align: right;
+  margin-right: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+
+}
+
+.user-flow img {
+  width: 70%;
+  float: left;
+}
+
+/*design*/
+.design {
+  height: 680px;
+}
+
+.design h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+
+}
+
+.design p {
+  text-align: left;
+  width: 33%;
+  font-size: 17px;
+}
+
+.design img {
+  float: right;
+  width: 81%;
+  margin-left: -40PX;
+  margin-right: -50px;
+
+}
+
+/*lo fi wireframes*/
+.lo-wireframes {
+  height: 1100px;
+  font-size: 17px;
+}
+
+.lo-wireframes h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+
+}
+
+.lo-wireframes .content-container {
+  width: 60%;
+}
+
+.lo-wireframes img {
+  width: 110%;
+  margin-left: -43px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.lo-wireframes p:nth-child(2){
+
+}
+/*hi fi wireframes*/
+.hi-wireframes {
+  height: 3420px;
+}
+
+.hi-wireframes p {
+  margin-bottom: 40px;
+}
+
+.hi-wireframes h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.hi-wireframes .content-container {
+  width: 60%;
+}
+
+.batch-1 img {
+  width: 140%;
+  margin-left: -145px;
+}
+/*conclusion*/
+
+.conclusion {
+  height: 410px;
+}
+
+.conclusion p {
+  margin-bottom: 50px;
+}
+
+
+.conclusion h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.conclusion a {
+  padding: 12px 80px 12px;
+  text-decoration: none;
+  color: white ;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-left: 410px;
+  border: #3c5f42 solid 2PX;
+  color: #49494e;
+}
+
+/*animations*/
+
+nav a:hover {
+border-bottom: #3c5f42 solid 1.5px;
+}
+
+.conclusion a:hover {
+background-image:none;
+background-color:#3c5f42;
+color: #fafafa;
+}
+
+/*media query*/
+/* ----------- iPhone 4 and 4S ----------- */

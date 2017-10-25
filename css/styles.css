@@ -1,0 +1,303 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(202, 202, 202, 0.09);
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+header nav {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-right: 160px;
+  border-bottom: #8b8c87 solid 1px;
+}
+header h1 {
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 2.5;
+  color: #262424;
+}
+.logo {
+  position: absolute;
+  width: 30%;
+  left: 0;
+  display: none;
+}
+
+.logo img{
+  width: 50%;
+}
+header ul {
+  position: absolute;
+  width: 44%;
+  right: 0px;
+}
+header li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 15px;
+  line-height: 1.75;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+}
+header a {
+  text-decoration: none;
+  color: #262424;
+}
+/*hero section*/
+#hero {
+  width: 100%;
+  height: 770px;
+  position: relative;
+  /*background-image: url("../images/plant1.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: left;
+  /*background: #bac5bf;*/
+  /*background: #dee8e3;*/
+  background: #cbd2c9;
+}
+
+img {
+  margin-top: 20px;
+}
+.content-container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#hero .content-container {
+  top: 41%;
+  color: #fbfbfb;
+}
+#hero h1 {
+  font-size: 56px;
+  margin: 0;
+}
+#hero p {
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 40px;
+  color: #262424;
+  font-weight: bolder;
+
+}
+
+/*about me*/
+#about {
+  text-align: center;
+  width: 100%;
+  height: 692px;
+  position: relative;
+  background-color: rgba(235, 235, 235, 0.55);
+}
+#about p {
+  text-align: left;
+}
+#about h2 {
+  color: #262424;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  margin-bottom: 18px;
+  margin-top: 70px;
+}
+
+.box {
+  background:#3B5F41;
+  /*background: #c3236d;*/
+  height: 4px;
+  width: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#about .content-container {
+  width: 43%;
+  font-family: 'Amiri', serif;
+
+}
+
+/*Skills*/
+#skills {
+  text-align: center;
+  width: 100%;
+  height: 955px;
+  position: relative;
+  background-color: #FAFAFA;
+}
+#skills h2 {
+  color: #262424;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  margin-bottom: -3px;
+  margin-bottom: 18px;
+  margin-top: 70px;
+}
+#skills .row {
+  position: relative;
+  width: 100%;
+}
+.skill-container {
+  display: inline-grid;
+  width: 34%;
+  font-family: 'Amiri', serif;
+  margin-left: 63px;
+  margin-right: 63px;
+  margin-bottom: 33px;
+}
+#skills h3 {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: -5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.skill-box {
+  margin-top: 15px;
+  /*background: #c3236d;*/
+  height: 2px;
+  width: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  background:#3B5F41;
+}
+
+#skills img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+}
+
+/*Portfolio*/
+#portfolio {
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-color: rgba(235, 235, 235, 0.55);
+}
+#portfolio h2 {
+  color: #262424;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  margin-bottom: 18px;
+  margin-top: 70px;
+}
+
+.portfolio-container {
+  position: relative;
+  width: 100%;
+}
+
+.project {
+  display: inline-block;
+  width: 35%;
+  position: relative;
+
+}
+.project-box {
+  height: 320px;
+  width: 320px;
+  background-image: url("../images/hair3.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#portfolio h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  text-transform: uppercase;
+  margin-bottom: 160px;
+  margin-top: 50px;
+  color: #FAFAFA;
+}
+#portfolio a {
+  padding: 12px 60px 12px;
+  background: #3c5f42;
+  text-decoration: none;
+  color: #FAFAFA;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+/*Contact me*/
+#contact{
+  text-align: center;
+  width: 100%;
+  height: 740px;
+  position: relative;
+  background-color: #FAFAFA;
+}
+#contact h2 {
+  color: #262424;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  margin-bottom: 18px;
+  margin-top: 70px;
+}
+
+#contact input {
+  margin-top: 47px;
+  border: none;
+  height: 40px;
+  width: 425px;
+  border-bottom: 1px solid;
+  border-bottom-color: #464343;
+  background-color: #fafafa;
+  padding: 0px;
+}
+
+button {
+  margin-top: 80px;
+  padding: 17px;
+  width: 430px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: #3c5f42 solid 2PX;
+  background-color: #fafafa;
+  color: #49494e;
+}
+
+#contact img {
+  width: 16%;
+}
+
+
+/*header color change*/
+
+.active { background-color: #fafafa}
+
+button:hover {
+background-image:none;
+background-color:#3c5f42;
+color: #fafafa;
+}
+
+nav a:hover {
+border-bottom: #3c5f42 solid 1.5px;
+}
+
+#portfolio a:hover {
+  background-color: #fafafa;
+  color: #3c5f42;
+  font-weight: bolder;
+}
