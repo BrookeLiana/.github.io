@@ -36,6 +36,7 @@ header h1 {
 
 .logo img{
   width: 50%;
+  margin-left: 25px;
 }
 header ul {
   position: absolute;
