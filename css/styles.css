@@ -58,14 +58,13 @@ header a {
 /*hero section*/
 #hero {
   width: 100%;
-  height: 680px;
+  height: 750px;
   position: relative;
-  /*background-image: url("../images/plant1.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   background-position: left;
-  background: #bac5bf;
+  background: #c8d2cc;
 }
 
 img {
@@ -241,7 +240,7 @@ img {
 #contact{
   text-align: center;
   width: 100%;
-  height: 600px;
+  height: 690px;
   position: relative;
   background-color: #FAFAFA;
 }
