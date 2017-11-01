@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="utf-8">
+    <title>Brooke Liana Hargrove</title>
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tresses Case Study -->
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/tresses.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108734248-1"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -11,20 +25,32 @@
     gtag('config', 'UA-108734248-1');
     </script>
 
-    <!-- Tresses Case Study -->
-    
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Brooke Liana Hargrove</title>
-    <link rel="stylesheet" href="css/tresses.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="desktop">
+        <div class="logo">
+          <img src="images/brookeliana.png" alt="Brooke Liana">
+        </div>
         <!-- <h1>Brooke Liana</h1> -->
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">What I do</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile">
+        <div class="logo">
+          <img src="images/brookeliana.png" alt="Brooke Liana">
+        </div>
+        <!-- <h1>Brooke Liana</h1> -->
+        <div class="hamburger-menu">
+          <span>___</span>
+          <span>___</span>
+          <span>___</span>
+        </div>
         <ul>
           <li><a href="index.html#hero">Home</a></li>
           <li><a href="index.html#about">About</a></li>
@@ -123,7 +149,7 @@
 
         <p>”Finding a stylist that won’t braid my hair too tightly, cause damage,  or use too much heat on my hair.”
         </p>
-</div>
+      </div>
       </div>
 
     </section>
@@ -218,9 +244,6 @@
 
         <section class="batch-1">
           <img src="images/batch1.png" alt="">
-
-
-
       </div>
     </section>
 
@@ -229,10 +252,13 @@
         <h3>Conclusion</h3>
         <p> Looking ahead to future iterations of this project, I would add more variety in the hairstyles offered, add the additional hair types that exist that were not included, flush out the stylist user flows and have
           the user be able to favorite stylists, leave reviews and share their finished hairstyling experience via social media</p>
+        <div class="back">
           <a href="index.html">Back</a>
+        </div>
       </div>
     </section>
 
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>

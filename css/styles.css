@@ -11,11 +11,49 @@ header {
   top: 0px;
   z-index: 1;
 }
+header nav.desktop {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-bottom: rgba(196, 196, 196, 0.48) solid 1px;
+  display: block;
+}
+nav.mobile {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-bottom: rgba(196, 196, 196, 0.48) solid 1px;
+}
+nav.mobile .hamburger-menu {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  font-weight: bold;
+  margin-right: 13px;
+  cursor: pointer;
+}
+nav.mobile span {
+  display: block;
+  line-height: 6px;
+}
+nav.mobile ul {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 45px;
+  background: #c5d2ce;
+  padding:15px;
+  display: none;
+}
+nav.mobile li {
+  display: block;
+  text-align: right;
+}
 header nav {
   height: 100%;
   width: 100%;
   position: relative;
-  padding-right: 160px;
   border-bottom: #8b8c87 solid 1px;
 }
 header h1 {
@@ -27,20 +65,28 @@ header h1 {
   line-height: 2.5;
   color: #262424;
 }
-.logo {
-  position: absolute;
-  width: 30%;
-  left: 0;
+
+nav.desktop .logo {
   display: none;
 }
 
-.logo img{
+.logo {
+  position: absolute;
+  left: 0;
+}
+
+.logo img {
   width: 50%;
   margin-left: 25px;
 }
+
+nav.mobile img {
+
+}
+
 header ul {
   position: absolute;
-  width: 44%;
+  width: 48%;
   right: 0px;
 }
 header li {
@@ -279,7 +325,6 @@ button {
   width: 16%;
 }
 
-
 /*header color change*/
 
 .active { background-color: #fafafa}
@@ -298,4 +343,14 @@ border-bottom: #3c5f42 solid 1.5px;
   background-color: #fafafa;
   color: #3c5f42;
   font-weight: bolder;
+}
+
+/* Larger than tablet */
+@media all and (max-width: 768px) {
+  header nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
+  }
 }

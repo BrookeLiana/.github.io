@@ -23,13 +23,56 @@ header {
   top: 0px;
   z-index: 1;
 }
-header nav {
+header nav.desktop {
   height: 100%;
   width: 100%;
   position: relative;
-  padding-right: 160px;
+  border-bottom: rgba(196, 196, 196, 0.48) solid 1px;
+  display: block;
+}
+nav.mobile {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: relative;
   border-bottom: rgba(196, 196, 196, 0.48) solid 1px;
 }
+nav.mobile .hamburger-menu {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  font-weight: bold;
+  margin-right: 13px;
+  cursor: pointer;
+}
+nav.mobile span {
+  display: block;
+  line-height: 6px;
+}
+nav.mobile ul {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 45px;
+  background: #c5d2ce;
+  padding:15px;
+  display: none;
+}
+nav.mobile li {
+  display: block;
+  text-align: right;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.logo img {
+  width: 50%;
+  margin-left: 25px;
+}
+
 header h1 {
   position: absolute;
   width: 44%;
@@ -41,8 +84,7 @@ header h1 {
 }
 header ul {
   position: absolute;
-  width: 50%;
-  right: 0px;
+  right: 20px;
 }
 header li {
   display: inline-block;
@@ -56,8 +98,12 @@ header a {
   text-decoration: none;
   color: #73737a;
 }
+
+section {
+  clear: both;
+}
+
 .content-container {
-  position: absolute;
   width: 100%;
   left: 0;
   right: 0;
@@ -120,7 +166,7 @@ text-align: center;
 }
 
 .hero-box {
-  height: 200px;
+  /*height: 200px;*/
   background: green;
   width: 100%
 }
@@ -176,7 +222,7 @@ text-align: center;
 
 /*user research*/
 .user-research {
-  height: 840px;
+  /*height: 990px;*/
 }
 
 .user-research h3 {
@@ -221,7 +267,7 @@ text-align: center;
 /*rearch quotes*/
 
 .research-quote {
-  height: 470px;
+  /*height: 470px;*/
 }
 
 .research-quote h3 {
@@ -249,7 +295,7 @@ text-align: center;
 }
 /*competitive analysis*/
 .competitive-analysis {
-  height: 400px;
+  /*height: 400px;*/
 }
 
 .competitive-analysis h3 {
@@ -276,7 +322,8 @@ text-align: center;
 
 /*user personas*/
 .user-personas {
-  height: 540px;
+  padding-top: 50px;
+  /*height: 540px;*/
 }
 
 .user-personas h3 {
@@ -324,7 +371,7 @@ font-weight: 300;
 /*user flows and stories*/
 
 .user-flow {
-  height: 771px;
+  /*height: 771px;*/
 }
 
 .user-flow p {
@@ -333,6 +380,8 @@ font-weight: 300;
   width: 36%;
   margin-top: -590px;
   font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .user-flow h3 {
@@ -351,7 +400,8 @@ font-weight: 300;
 
 /*design*/
 .design {
-  height: 680px;
+  padding-top: 100px;
+  /*height: 680px;*/
 }
 
 .design h3 {
@@ -378,7 +428,8 @@ font-weight: 300;
 
 /*lo fi wireframes*/
 .lo-wireframes {
-  height: 1100px;
+  padding-top: 50px;
+  /*height: 1100px;*/
   font-size: 17px;
 }
 
@@ -407,7 +458,7 @@ font-weight: 300;
 }
 /*hi fi wireframes*/
 .hi-wireframes {
-  height: 3810px;
+  /*height: 3810px;*/
 }
 
 .hi-wireframes p {
@@ -441,7 +492,6 @@ font-weight: 300;
   margin-bottom: 50px;
 }
 
-
 .conclusion h3 {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
@@ -451,20 +501,31 @@ font-weight: 300;
   margin-top: 60px;
 }
 
+.conclusion .back {
+  position: relative;
+  width: 100%;
+}
 .conclusion a {
   padding: 12px 80px 12px;
   text-decoration: none;
   color: white ;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-  margin-left: 410px;
   border: #3c5f42 solid 2PX;
   color: #49494e;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 70px;
 }
+
+
 
 /*animations*/
 
-nav a:hover {
+nav.desktop a:hover {
 border-bottom: #3c5f42 solid 1.5px;
 }
 
@@ -474,5 +535,161 @@ background-color:#3c5f42;
 color: #fafafa;
 }
 
-/*media query*/
-/* ----------- iPhone 4 and 4S ----------- */
+/*header color change*/
+
+.active { background-color: #fafafa}
+
+button:hover {
+background-image:none;
+background-color:#3c5f42;
+color: #fafafa;
+}
+
+nav.desktop a:hover {
+border-bottom: #3c5f42 solid 1.5px;
+}
+
+#portfolio a:hover {
+  background-color: #fafafa;
+  color: #3c5f42;
+  font-weight: bolder;
+}
+
+/* Larger than tablet */
+@media all and (max-width: 768px) {
+  header nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .intro {
+    display: block;
+  }
+  .intro h2 {
+    text-align: center;
+  }
+  .intro h3 {
+    text-align: center;
+
+  }
+  .intro img {
+    float: none;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .intro p {
+    text-align: center;
+    width: 100%;
+  }
+  .problem-solution {
+    height: 770px;
+    display: block;
+  }
+  .problem-solution-container {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .problem-solution h3 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .problem-solution p {
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+  }
+  .bun-image {
+    display: none;
+  }
+  .curl-image {
+    display: none;
+  }
+  .user-research {
+    height: 1140px;
+  }
+  .research-quote {
+    height: 640px;
+  }
+  .research-quote p {
+    width: 75%;
+  }
+  .competitive-analysis {
+    height: 670px;
+  }
+  .user-personas {
+    height: 1030px;
+  }
+  .user-personas .user-container {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .user-personas h3 {
+    margin-bottom: 0;
+  }
+  .user-personas p {
+    margin-bottom: 0;
+  }
+  .user-flow {
+    height: 401px;
+  }
+  .user-flow img {
+    display: none;
+    float: none;
+  }
+  .user-flow p {
+    float: none;
+    width: 100%;
+    margin-top: 0;
+  }
+  .user-flow h3 {
+    text-align: center;
+  }
+  .design h3 {
+    text-align: center;
+  }
+  .design img {
+    width: 96%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .design {
+    height: 760px;
+  }
+  .design p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lo-wireframes .content-container {
+    width: 90%;
+  }
+  .lo-wireframes img {
+    display: none;
+  }
+  .lo-wireframes {
+    height: 700px;
+  }
+  .hi-wireframes .content-container {
+    width: 90%;
+  }
+  .batch-1 img {
+    display: none;
+  }
+  .hi-wireframes {
+    height: 300px;
+  }
+  .content-container {
+    width: 90%;
+  }
+}
