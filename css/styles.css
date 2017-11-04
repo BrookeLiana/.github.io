@@ -163,7 +163,6 @@ img {
 
 .box {
   background:#3B5F41;
-  /*background: #c3236d;*/
   height: 4px;
   width: 55px;
   margin-left: auto;
@@ -354,3 +353,32 @@ border-bottom: #3c5f42 solid 1.5px;
     display: block;
   }
 }
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+  #about {
+    height: 770px;
+
+  }
+  #about .content-container {
+    width: 90%;
+  }
+  #hero img {
+    width: 90%
+  }
+  #skills {
+    height: 1750px;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 550px) {}
+
+/* Larger than tablet */
+@media (max-width: 750px) {}
+
+/* Larger than desktop */
+@media (max-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {}
