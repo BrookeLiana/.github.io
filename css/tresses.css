@@ -263,6 +263,7 @@ text-align: center;
   margin-right: -150px;
   margin-top: 100px;
   width: 100%;
+  background-position: bottom;
 }
 /*rearch quotes*/
 
@@ -555,15 +556,7 @@ border-bottom: #3c5f42 solid 1.5px;
   font-weight: bolder;
 }
 
-/* Larger than tablet */
-@media all and (max-width: 768px) {
-  header nav.desktop {
-    display: none;
-  }
-  nav.mobile {
-    display: block;
-  }
-}
+
 
 @media all and (max-width: 1024px) {
   .intro {
@@ -691,6 +684,17 @@ border-bottom: #3c5f42 solid 1.5px;
   }
   .content-container {
     width: 90%;
+    margin-top: 40px;
+  }
+}
+
+/* Larger than tablet */
+@media all and (max-width: 768px) {
+  header nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
   }
 }
 
@@ -715,69 +719,61 @@ border-bottom: #3c5f42 solid 1.5px;
   }
 }
 
-@media all and (max-width: 615px) {
-  .competitive-analysis {
-    height: 360px;
-    }
-    .lo-wireframes {
-      height: 520px;
-    }
-    .user-personas {
-      height: 920px;
-    }
+@media all and (max-width: 550px) {
+  .lo-wireframes {
+    height: 790px;
   }
-
-@media all and (max-width: 515px) {
-    .research-quote {
-      height: 520px;
-    }
-    .user-research {
-      height: 940px;
-    }
-    .competitive-analysis {
-      height: 430px;
-    }
-    .user-personas {
-      height: 940px;
-    }
-    .user-flow {
-      height: 200px;
-    }
-    .design {
-      height: 660px;
-    }
-    .lo-wireframes {
-      height: 570px;
-    }
-    .problem-solution {
-      height: 790px;
-    }
+  .user-flow {
+    height: 280px;
+  }
+  .user-personas {
+    height: 1050px;
+  }
+  .competitive-analysis {
+    height: 630px;
+  }
+  .research-quote {
+    height: 680px;
+  }
+  .problem-solution {
+    height: 910px;
+  }
+  .user-research {
+    height: 950px;
+  }
+  .design {
+    height: 610px;
+  }
 }
 
 
-@media all and (max-width: 400px) {
+
+@media all and (max-width: 320px) {
     .problem-solution {
-      height: 860px;
+      height: 980px;
     }
     .user-research {
-      height: 920px;
+      height: 990px;
     }
     .competitive-analysis {
-      height: 580px;
+      height: 680px;
     }
     .user-personas {
-      height: 1070px;
+      height: 1180px;
     }
     .user-flow {
-      height: 290px;
+      height: 340px;
     }
     .design {
       height: 610px;
     }
     .lo-wireframes {
-      height: 720px;
+      height: 950px;
     }
     .research-quote {
-      height: 610px;
+      height: 720px;
+    }
+    .hi-wireframes {
+      height: 260px;
     }
 }
