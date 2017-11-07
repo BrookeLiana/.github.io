@@ -42,7 +42,7 @@ nav.mobile ul {
   width: 100%;
   right: 0;
   top: 45px;
-  background: #c5d2ce;
+  background: #b4c1bb;
   padding:15px;
   display: none;
 }
@@ -344,15 +344,6 @@ border-bottom: #3c5f42 solid 1.5px;
   font-weight: bolder;
 }
 
-/* Larger than tablet */
-@media all and (max-width: 768px) {
-  header nav.desktop {
-    display: none;
-  }
-  nav.mobile {
-    display: block;
-  }
-}
 
 /* Larger than mobile */
 @media (max-width: 400px) {
@@ -371,14 +362,94 @@ border-bottom: #3c5f42 solid 1.5px;
   }
 }
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (max-width: 550px) {}
-
-/* Larger than tablet */
-@media (max-width: 750px) {}
-
-/* Larger than desktop */
-@media (max-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (max-width: 1200px) {}
+/*@media (max-width: 1200px) {}*/
+
+/* Smaller than desktop */
+@media all and (max-width: 1024px) {
+  #about .content-container {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 915px) {
+  header ul {
+    width: 60%;
+  }
+  #about {
+    height: 620px;
+  }
+  #about .content-container {
+    width: 65%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .skill-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: table-footer-group;
+  }
+  #skills {
+    height: 1355px;
+  }
+  .project {
+    width: 45%;
+  }
+}
+/* Smaller than tablet */
+@media all and (max-width: 768px) {
+  header nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
+  }
+  #about .content-container {
+    width: 80%;
+  }
+  #about {
+    height: 700px;
+  }
+}
+/* Larger than phablet (also point when grid becomes active) */
+
+@media (max-width: 700px) {
+  .project-box {
+    height: 270px;
+    width: 270px;
+  }
+  .project {
+    width: 65%;
+  }
+
+}
+@media (max-width: 550px) {
+  #about {
+    height: 760px;
+  }
+  #skills {
+    height: 1495px;
+  }
+}
+@media (max-width: 440px) {
+  #about {
+    height: 860px;
+  }
+  .project {
+    display: inline-block;
+    width: 75%;
+  }
+  .project-box {
+    height: 280px;
+    width: 280px;
+  }
+  button {
+    width: 360px;
+  }
+  #contact input {
+    width: 355px;
+  }
+}
