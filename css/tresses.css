@@ -614,19 +614,19 @@ border-bottom: #3c5f42 solid 1.5px;
     display: none;
   }
   .user-research {
-    height: 1140px;
+    height: 780px;
   }
   .research-quote {
-    height: 640px;
+    height: 410px;
   }
   .research-quote p {
     width: 75%;
   }
   .competitive-analysis {
-    height: 670px;
+    height: 280px;
   }
   .user-personas {
-    height: 1030px;
+    height: 850px;
   }
   .user-personas .user-container {
     display: block;
@@ -640,7 +640,7 @@ border-bottom: #3c5f42 solid 1.5px;
     margin-bottom: 0;
   }
   .user-flow {
-    height: 401px;
+    height: 160px;
   }
   .user-flow img {
     display: none;
@@ -664,7 +664,7 @@ border-bottom: #3c5f42 solid 1.5px;
     margin-right: 0;
   }
   .design {
-    height: 760px;
+    height: 810px;
   }
   .design p {
     width: 100%;
@@ -678,7 +678,7 @@ border-bottom: #3c5f42 solid 1.5px;
     display: none;
   }
   .lo-wireframes {
-    height: 700px;
+    height: 400px;
   }
   .hi-wireframes .content-container {
     width: 90%;
@@ -687,9 +687,97 @@ border-bottom: #3c5f42 solid 1.5px;
     display: none;
   }
   .hi-wireframes {
-    height: 300px;
+    height: 200px;
   }
   .content-container {
     width: 90%;
   }
+}
+
+@media all and (max-width: 760px) {
+  .problem-solution {
+    height: 780px;
+  }
+  .user-research {
+    height: 810px;
+  }
+  .research-quote {
+    height: 440px;
+  }
+  .competitive-analysis {
+    height: 310px;
+  }
+  .design {
+    height: 710px;
+  }
+  .lo-wireframes {
+    height: 430px;
+  }
+}
+
+@media all and (max-width: 615px) {
+  .competitive-analysis {
+    height: 360px;
+    }
+    .lo-wireframes {
+      height: 520px;
+    }
+    .user-personas {
+      height: 920px;
+    }
+  }
+
+@media all and (max-width: 515px) {
+    .research-quote {
+      height: 520px;
+    }
+    .user-research {
+      height: 940px;
+    }
+    .competitive-analysis {
+      height: 430px;
+    }
+    .user-personas {
+      height: 940px;
+    }
+    .user-flow {
+      height: 200px;
+    }
+    .design {
+      height: 660px;
+    }
+    .lo-wireframes {
+      height: 570px;
+    }
+    .problem-solution {
+      height: 790px;
+    }
+}
+
+
+@media all and (max-width: 400px) {
+    .problem-solution {
+      height: 860px;
+    }
+    .user-research {
+      height: 920px;
+    }
+    .competitive-analysis {
+      height: 580px;
+    }
+    .user-personas {
+      height: 1070px;
+    }
+    .user-flow {
+      height: 290px;
+    }
+    .design {
+      height: 610px;
+    }
+    .lo-wireframes {
+      height: 720px;
+    }
+    .research-quote {
+      height: 610px;
+    }
 }
